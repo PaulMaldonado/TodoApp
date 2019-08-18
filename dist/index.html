@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/style.78032849.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <title>TodoApp</title>
+<script src="/style.78032849.js"></script></head>
+<body>
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo">Todo App</a>
+            </div>
+        </nav>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col s4">
+                <div class="card">
+                    <div class="card-title">
+                        <h2 class="text-center">Crear Tareas</h2>
+                    </div>
+                    <div class="card-content">
+                        <form id="todo-task">
+                            <div class="input-field col s12">
+                                <input type="text" id="name" class="validate">
+                                <label for="name">Nombre de la tarea</label>
+                            </div>
+                            <div class="input-field col s12">
+                                <input type="text" id="description" class="textarea">
+                                <label for="description">Descripción de la tarea</label>
+                            </div>
+            
+                            <button class="waves-effect waves-light btn-small button blue darken-4">Guardar Tarea</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col s8">
+                <div id="ui-task"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="/main.fb6bbcaf.js"></script>
+</body>
+</html>

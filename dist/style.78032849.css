@@ -1,0 +1,26 @@
+html, body {
+    background: #e0e0e0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.brand-logo {
+    margin-left: 20px;
+}
+
+.nav-wrapper {
+    background-color: #0d47a1;
+}
+
+.button {
+    margin-left: 10px;
+}
+
+.text-center {
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+
+/*# sourceMappingURL=/style.78032849.css.map */
